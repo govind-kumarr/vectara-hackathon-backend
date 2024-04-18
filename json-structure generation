@@ -1,0 +1,149 @@
+[
+    {
+        "step_number": 1,
+        "title": "Integration of Unstructured.io Library",
+        "description": {
+            "text": "The Unstructured.io library was integrated into the application's backend. Configuration was done to preprocess unstructured data and make it RAG-ready.",
+            "references": [
+                {
+                    "content": "Unstructured.io library integration",
+                    "score": 0.92,
+                    "doc_source_name": "Integration Guide",
+                    "page": 3
+                },
+                {
+                    "content": "Preprocessing configuration for RAG-readiness",
+                    "score": 0.85,
+                    "doc_source_name": "Configuration Manual",
+                    "page": 7
+                }
+            ]
+        },
+        "substeps": []
+    },
+    {
+        "step_number": 2,
+        "title": "Development of API Endpoints",
+        "description": {
+            "text": "API endpoints were developed to facilitate various functionalities within the application. Endpoints for uploading unstructured documentation, querying the vector database with reranking, and upserting data into Vectara were implemented.",
+            "references": [
+                {
+                    "content": "API endpoint development overview",
+                    "score": 0.95,
+                    "doc_source_name": "Development Report",
+                    "page": 10
+                },
+                {
+                    "content": "Vectara data management endpoint implementation",
+                    "score": 0.88,
+                    "doc_source_name": "Vectara Documentation",
+                    "page": 5
+                }
+            ]
+        },
+        "substeps": [
+            {
+                "title": "Create API Endpoints",
+                "content": "The necessary API endpoints were created.",
+                "references": [
+                    {
+                        "content": "API endpoint creation details",
+                        "score": 0.82,
+                        "doc_source_name": "Development Log",
+                        "page": 3
+                    }
+                ]
+            },
+            {
+                "title": "Implement Reranking Query Endpoints",
+                "content": "Endpoints for querying the vector database with reranking were implemented.",
+                "references": [
+                    {
+                        "content": "Reranking query endpoint details",
+                        "score": 0.85,
+                        "doc_source_name": "Development Log",
+                        "page": 5
+                    }
+                ]
+            },
+            {
+                "title": "Develop Upsert Data Endpoints",
+                "content": "Endpoints for upserting data into Vectara were developed.",
+                "references": [
+                    {
+                        "content": "Upsert data endpoint development specifics",
+                        "score": 0.87,
+                        "doc_source_name": "Vectara Documentation",
+                        "page": 7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step_number": 3,
+        "title": "Calculation of Confidence Score",
+        "description": {
+            "text": "Tonic.AI was utilized to calculate confidence scores for the generated content. Integration of these scores into the data retrieval and generation process was carried out.",
+            "references": [
+                {
+                    "content": "Confidence score calculation using Tonic.AI",
+                    "score": 0.94,
+                    "doc_source_name": "Integration Guide",
+                    "page": 8
+                },
+                {
+                    "content": "Integration of confidence scores",
+                    "score": 0.89,
+                    "doc_source_name": "Development Report",
+                    "page": 12
+                }
+            ]
+        },
+        "substeps": []
+    },
+    {
+        "step_number": 4,
+        "title": "Deployment of LLM Optimized for RAG",
+        "description": {
+            "text": "Together.AI collaborated to deploy a Language Model (LLM) optimized for Retrieval Augmented Generation (RAG). Fine-tuning of the LLM was performed to enhance its performance in generating structured reports.",
+            "references": [
+                {
+                    "content": "LLM deployment collaboration details",
+                    "score": 0.91,
+                    "doc_source_name": "Collaboration Agreement",
+                    "page": 5
+                },
+                {
+                    "content": "LLM fine-tuning for structured report generation",
+                    "score": 0.87,
+                    "doc_source_name": "Fine-tuning Report",
+                    "page": 9
+                }
+            ]
+        },
+        "substeps": []
+    },
+    {
+        "step_number": 5,
+        "title": "Development of Frontend",
+        "description": {
+            "text": "The frontend interface was designed and developed using weweb.io. Dynamic features for user interaction with generated content were implemented. Seamless integration with backend APIs for data retrieval and display was ensured.",
+            "references": [
+                {
+                    "content": "weweb.io frontend design and development",
+                    "score": 0.93,
+                    "doc_source_name": "Design Specification",
+                    "page": 7
+                },
+                {
+                    "content": "Dynamic feature implementation details",
+                    "score": 0.86,
+                    "doc_source_name": "Development Report",
+                    "page": 15
+                }
+            ]
+        },
+        "substeps": []
+    }
+]
