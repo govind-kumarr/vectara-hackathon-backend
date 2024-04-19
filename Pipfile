@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 llama-index = "*"
+langchain = "*"
+langchain-together = "*"
+langchain-openai = "*"
 
 [dev-packages]
 
